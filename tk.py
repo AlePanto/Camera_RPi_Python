@@ -16,15 +16,18 @@ import RPi.GPIO as GPIO
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(17, GPIO.OUT)#relay VFD 240VAC
+
+#Screw axis
 GPIO.setup(18, GPIO.OUT)#number of steps the steppermotor
 GPIO.setup(23, GPIO.OUT)#Enavel or desable the drive // it prevent the motor from overheating
 GPIO.setup(24, GPIO.OUT)#Direction of the stepperMotor   
-GPIO.setup(25, GPIO.OUT)#change relay between screw and camera 
-#add to the camera axis
-GPIO.setup(21, GPIO.OUT)#number of steps the steppermotor   Blanco
-GPIO.setup(16, GPIO.OUT)#Enavel or desable the drive // it prevent the motor from overheating    cafe
-GPIO.setup(20, GPIO.OUT)#Direction of the stepperMotor     negro
-#add to the camera axis
+
+GPIO.setup(25, GPIO.OUT)#change relay between screw and camera /// it is Not used
+
+#Camera axis
+GPIO.setup(21, GPIO.OUT)#number of steps the steppermotor   cable-Blanco
+GPIO.setup(16, GPIO.OUT)#Enavel or desable the drive // it prevent the motor from overheating    cable-cafe
+GPIO.setup(20, GPIO.OUT)#Direction of the stepperMotor     cable-negro
 
 GPIO.output(17, GPIO.HIGH) #is used to start the VFD OFF position
 # is not going to be use the relay #GPIO.output(25, GPIO.HIGH)
