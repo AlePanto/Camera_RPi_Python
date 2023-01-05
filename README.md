@@ -2,7 +2,7 @@
 The problem 
 
 
-Materials:
+#Materials:
 1. Raspberry-Pi
 2. USB type camera
 3. 2 stepper motors
