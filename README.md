@@ -1,6 +1,6 @@
 # Camera_RPi
 
-Beginner python programming project:
+Beginner python programming project: Camera Motion Control.
 
 The project intention is to use a Raspberry-Pi (RPi) on a closed-circuit television (CCTV). I used my windows desktop to remote access the RPi with VNC viewer. The RPi is connected to a USB camera that is mounted on a two axis arm. The arm is moved by stepper motors connected to the RPi. To remote control the this system I developed a TKinter graphical user interface (GUI).
 
