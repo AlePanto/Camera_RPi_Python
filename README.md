@@ -7,7 +7,7 @@ The project intention is to use a Raspberry-Pi (RPi) on a closed-circuit televis
 
 As the picture bellow show the GUI let you:
 - Start and Finish the camera video
-- turn on and off a relay (VFD ON)
+- turn on and off a relay (VFD ON/OFF)
 - control movement of 2 different steper motors (<< >>)
 
 # Project
