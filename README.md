@@ -21,5 +21,8 @@ As the picture bellow show the GUI let you:
 4. 2 stepper motor drives
 5. relay
 
+# GPIO used:
+
+![image](https://user-images.githubusercontent.com/92346972/210687186-8382389e-931d-451f-9f30-50ccb686af53.png)
 
 
